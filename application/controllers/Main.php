@@ -21,12 +21,6 @@ class Main extends CI_Controller {
 	public function home()
 	{
 
-		if($this->input->get('pwd')!='samer')
-		{
-			$this->load->view('pages/redirect');
-			return;
-		}
-
 		$data['site_data']  = $this->Sitedata_model->getSite_data()[0];
 		$data['ArrCourses']= $this->Courses_model->getCourses_HomePage();
 		$data['ArrInstructors']= $this->Instructors_model->getInstructors();
