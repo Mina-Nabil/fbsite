@@ -31,7 +31,7 @@ class Teachings_model extends CI_Model{
 
   public function getTeaching_byCourses($ID){
 
-    $strSQL = "SELECT  TECH_ID, TECH_INST_ID, TECH_CRS_ID, CRS_NAME, INST_NAME, INST_IMG
+    $strSQL = "SELECT  TECH_ID, TECH_INST_ID, TECH_CRS_ID, CRS_NAME, INST_NAME, INST_IMG, INST_ID 
               FROM teaching, courses, instructors
               WHERE TECH_CRS_ID = CRS_ID AND TECH_INST_ID = INST_ID AND  TECH_CRS_ID = {$ID}";
     $query = $this->db->query($strSQL);

@@ -54,6 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['home'] = 'Main/home';
+$route['join'] = 'Main/join';
 $route['contactus'] = 'Main/contactus';
 $route['send_email'] = 'Main/send_email';
 $route['instructors/(:any)'] = 'Main/instructors/$1';

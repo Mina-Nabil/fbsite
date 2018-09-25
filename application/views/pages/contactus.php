@@ -6,7 +6,7 @@
           <div class="container">
             <h1>Contact Us</h1>
                 <ul class="breadcrumbs">
-                  <li><a href="index.html">Home</a> /</li>
+                  <li><a href="<?=base_url()?>home">Home</a> /</li>
                   <li>Contact Us</li>
                 </ul>
           </div>
@@ -45,7 +45,7 @@
                             <div class="icon_box"><i class="fa fa-map-marker"></i></div>
                             <div class="info_txt">
                                 <h4>Address</h4>
-                                <p>Street 278, Ezbet Fahmy, El-Basatin, Cairo Governorate.</p>
+                                <p><?=$ContactUs['CNTC_ADRS']?></p>
                             </div>
                         </div>
                     </div>

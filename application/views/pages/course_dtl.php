@@ -173,7 +173,7 @@
                                </div>
                                <div class="tutor_info">
                                  <h5>
-                                     <a href="#"><?=$instructor['INST_NAME']?></a>
+                                     <a href="<?=base_url().'instructor_dtl/' . $instructor['INST_ID']?>"><?=$instructor['INST_NAME']?></a>
 
                                </div>
                            </li>

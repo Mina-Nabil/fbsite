@@ -22,7 +22,7 @@
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['920','920','920','1070']" data-whitespace="nowrap"
                                       data-responsive="off" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="opacity:0;s:1500;e:Power2.easeInOut;"
                                       data-transform_out="opacity:0;s:1000;s:1000;" data-basealign="slide" data-responsive_offset="off" style="z-index: 5; background-color: rgba(0, 0, 0, 0.50);
-                                      border-color: rgba(0, 0, 0, 0); background: rgba(0,0,0,0.45);">
+                                      border-color: rgba(0, 0, 0, 0); background: rgba(0,0,0,0.45);" >
                                   </div>
 
                                   <!-- Layer 2 -->
@@ -209,10 +209,8 @@
 
                           <!-- Overview Start -->
                           <div id="overview" class="overview">
-                              <div class="overview_img col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <img src=<?=base_url() . "../financialbrainsCP/uploads/home/" . $site_data['STDT_HOME_BIGIMG']?>>
-                              </div>
-                              <div class="overview_inner col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+                              <div class="overview_inner col-lg-12 col-md-6 col-sm-12 col-xs-12">
                                   <h2>Why Financial Brains?</h2>
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 overview_m_padd">
                                       <div class="overview_info instructor col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -238,7 +236,7 @@
                                           <div class="col-md-12 col-xs-12">
                                               <div class="icon"><i class="fa fa-handshake-o"></i></div>
                                               <h5>Pass Guarantee</h5>
-                                              <p>Repeat the course free of charge in case you did not pass the international certificate on your first attempt.</p>
+                                              <p>Repeat the course with 50% of charge in case you did not pass the international certificate on your first attempt.</p>
                                               <br><br>
 
                                           </div>
@@ -285,11 +283,26 @@
                </div>
            </div>
 
-       <!-- Courses End -->
+       <!-- Courses End --> "
 
        <!-- Count Section Start -->
                <div id="count" class="count" data-stellar-background-ratio="0.3" style="background: url(images/slider_img1.jpg); background-attachment: fixed; background-position: 50% 50%;">
                    <div class="container">
+                     <div class="head_part">
+
+                           <div class="head_part">
+                                   <h2>About Us</h2>
+                                   <p><strong>Financial Brains is a committed Business Solutions company founded in 2010  to provide organizations with high quality services.
+The Center offers many different courses which Help the student in several different areas. Do not hesitate to contact us for any enquiries
+</strong></p>
+                               </div>
+                             <h2>Vision</h2>
+                             <p><strong>Achieve our strategic and operational objectives by enhancing the business processes and developing the employees, who are the most valuable assets of the organization</strong></p>
+                         </div>
+                         <div class="head_part">
+                                 <h2>Mission</h2>
+                                 <p><strong>Enable them to achieve their goals, by enhancing the skills for their most valuable assets – people – as well as their business processes, in order to reach their strategic and operational objectives</strong></p>
+                             </div>
                        <div class="head_part">
                                <h2>Happy Milistones</h2>
                                <p><strong>For 10 years, we have been serving more than 1,000 customers.</strong></p>
@@ -324,6 +337,7 @@
                            </div>
 
                        </div>
+
                    </div>
                </div>
                <!-- Count Section End -->

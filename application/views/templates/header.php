@@ -98,7 +98,10 @@
 
                                 <li><a class="trigger" href="<?=base_url() ?>instructors/1">Instructors</a></li>
                                 <li><a class="trigger" href="<?=base_url() ?>contactus">Contact us</a></li>
+                                <li><a class="trigger" href="<?=base_url() ?>gallery">Event Gallery</a></li>
+                                <li><a class="trigger" href="<?=base_url() ?>join">Join our Team</a></li>
                             </ul>
+
                         </div>
                         <!-- Mobile Menu End -->
 
@@ -130,6 +133,9 @@
                                         </li>
                                 <li><a class="trigger" href="<?=base_url() ?>instructors/1">Instructors</a></li>
                                 <li><a class="trigger" href="<?=base_url() ?>contactus">Contact us</a></li>
+                                <li><a class="trigger" href="<?=base_url() ?>gallery">Event Gallery</a></li>
+                                <li><a class="trigger" href="<?=base_url() ?>join">Join our Team</a></li>
+
                             </ul>
                         </div>
                     </div>

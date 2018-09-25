@@ -147,6 +147,14 @@ class Main extends CI_Controller {
 
 
 
+	} public function join(){
+		$footer['ContactUs'] = $this->Contactus_model->getContactus()[0];
+		$footer['Images'] = $this->Sitedata_model->getSite_data_SMLIMG()[0];
+
+
+		$this->load->view('templates/header');
+		$this->load->view('pages/join');
+		$this->load->view('templates/footer', $footer);
 	}
 
 
