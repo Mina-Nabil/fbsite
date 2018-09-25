@@ -9,9 +9,9 @@
                         <li>
                             <div class="footer_logo"><img alt="Footer Logo" src="<?=base_url() . "images/logo_wt.png"?>"></div>
                             <div class="footer_txt"><p>You can book your free orientation session Call us for more info. </p></div>
-                            <div class="footer_email"><i class="fa fa-envelope"></i> <a href="mailto:<?=$ContactUs['CNTC_EMAIL']?>"><?=$ContactUs['CNTC_EMAIL']?></a></div>
-                            <div class="footer_phone"><i class="fa fa-phone"></i><?=$ContactUs['CNTC_MOB']?></div>
-                            <div class="footer_phone"><i class="fa fa-phone"></i><?=$ContactUs['CNTC_LNDL']?></div>
+                            <div class="footer_email"><p><strong>Email</strong></p><i class="fa fa-envelope"></i> <a href="mailto:<?=$ContactUs['CNTC_EMAIL']?>"><?=$ContactUs['CNTC_EMAIL']?></a></div>
+                            <div class="footer_phone"><p><strong>Mobile Number</strong></p><i class="fa fa-phone"></i><?=$ContactUs['CNTC_MOB']?></div>
+                            <div class="footer_phone"><p><strong>Land line</strong></p><i class="fa fa-phone"></i><?=$ContactUs['CNTC_LNDL']?></div>
                             <div class="social_links">
                                 <a href="http://www.fb.com/<?=$ContactUs['CNTC_FB']?>" target="_blank" rel="external nofollow" title="Share it"><i class="fa fa-facebook"></i></a>
 
