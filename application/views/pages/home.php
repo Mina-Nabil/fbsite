@@ -259,13 +259,13 @@
                  <?php foreach($ArrCourses as $course) {?>
                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                        <div class="course_block">
+                         <a href="<?=base_url() .'course_dtl/' . $course['CRS_ID']  ?>" >
                            <div class="img_wrap center">
-                             <a href="<?=base_url() .'course_dtl/' . $course['CRS_ID']  ?>" >
                                <img height="160px" alt="Business" src="<?=base_url() . "../financialbrainsCP/uploads/courses/" . $course['CRS_IMG']?>">
-                             </a>
                                <div class="course_img_hoverlay_btn">
                                </div>
                            </div>
+                         </a>
                            <div class="business">
                                <div class="icon"><i class="fa fa-line-chart"></i></div>
                                <div class="course_info">
