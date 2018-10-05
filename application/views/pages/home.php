@@ -11,17 +11,17 @@
                           <ul>
                               <!-- Slide Start -->
                               <li data-index="rs-309" data-transition="slideoverhorizontal" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000"
-                                  data-thumb="<?=base_url() ?>/images/slider_img1.png" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"
+                                  data-thumb="<?=base_url() .'images/' . $Slides['SLD_IMG1']?>" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"
                                   data-title="CFA" data-description="">
                                   <!-- Image Start -->
-                                  <img src="<?=base_url() ?>/images/slider_img1.png" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                  <img src="<?=base_url() .'images/' . $Slides['SLD_IMG1']?>" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                   <!-- Image End -->
 
                                   <!-- Layer 1 -->
                                   <div class="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-0" id="slide-309-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"  data-start="0"
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['920','920','920','1070']" data-whitespace="nowrap"
                                       data-responsive="off" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="opacity:0;s:1500;e:Power2.easeInOut;"
-                                      data-transform_out="opacity:0;s:1000;s:1000;" data-basealign="slide" data-responsive_offset="off" style="z-index: 5; background-color: rgba(0, 0, 0, 0.50);
+                                      data-transform_out="opacity:0;s:1000;s:1000;" data-basealign="slide" data-responsive_offset="off" style= "z-index: 5; background-color: rgba(0, 0, 0, 0.50);
                                       border-color: rgba(0, 0, 0, 0); background: rgba(0,0,0,0.45);" >
                                   </div>
 
@@ -30,8 +30,8 @@
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','110','180','160']" data-fontsize="['70','70','49','42']" data-lineheight="['100','90','60','60']"
                                       data-width="['none','none','none','400']" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-transform_idle="o:1;" data-mask_in="x:0px;y:[100%];" data-start="500"
                                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-splitin="none"
-                                      data-splitout="none" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-basealign="slide" data-responsive_offset="off" style="z-index: 6;
-                                      white-space: nowrap;">Chartered Financial Analyst (CFA).
+                                      data-splitout="none" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-basealign="slide" data-responsive_offset="off" style= "z-index: 6;
+                                      white-space: nowrap;"><?=$Slides['SLD_TTL1']?>
                                   </div>
 
                                   <!-- Layer 3 -->
@@ -39,8 +39,8 @@
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['40','1','74','58']" data-fontsize="['18','18','18','15']" data-lineheight="['24','24','24','20']"
                                       data-width="['410','410','410','280']" data-height="['60','100','100','100']" data-transform_idle="o:1;" data-start="650" data-splitin="none" data-splitout="none"
                                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-basealign="slide" data-responsive_offset="off"
-                                      data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-responsive="off" style="z-index: 7; min-width: 430px; max-width: 430px; max-width: 60px;
-                                      white-space: normal;">Financial brains provides CFA preparation course for <strong>ALL 3 LEVELS</strong>
+                                      data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-responsive="off" style= "z-index: 7; min-width: 430px; max-width: 430px; max-width: 60px;
+                                      white-space: normal;"><?=$Slides['SLD_DSC1']?>
                                   </div>
 
 
@@ -49,16 +49,16 @@
 
                               <!-- Slide Start -->
                               <li data-index="rs-310" data-transition="slideoverhorizontal" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000"
-                                  data-thumb="<?=base_url() ?>/images/slider_img2.jpeg" data-rotate="0" data-saveperformance="off" data-title="CMA" data-description="">
+                                  data-thumb="<?=base_url() .'images/' . $Slides['SLD_IMG2']?>" data-rotate="0" data-saveperformance="off" data-title="CMA" data-description="">
                                   <!-- Image Start -->
-                                  <img src="<?=base_url() ?>/images/slider_img2.jpeg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                  <img src="<?=base_url() .'images/' . $Slides['SLD_IMG2']?>" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                   <!-- Image End -->
 
                                   <!-- Layer 1 -->
                                   <div class="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-0" id="slide-310-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"  data-start="0"
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['920','920','920','1070']" data-whitespace="nowrap"
                                       data-responsive="off" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="opacity:0;s:1500;e:Power2.easeInOut;"
-                                      data-transform_out="opacity:0;s:1000;s:1000;" data-basealign="slide" data-responsive_offset="off" style="z-index: 5; background-color: rgba(0, 0, 0, 0.50);
+                                      data-transform_out="opacity:0;s:1000;s:1000;" data-basealign="slide" data-responsive_offset="off" style= "z-index: 5; background-color: rgba(0, 0, 0, 0.50);
                                       border-color: rgba(0, 0, 0, 0); background: rgba(0,0,0,0.45);">
                                   </div>
 
@@ -67,8 +67,8 @@
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['110','110','180','160']" data-fontsize="['70','70','49','42']" data-lineheight="['100','90','60','60']"
                                       data-width="['none','none','none','400']" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-transform_idle="o:1;" data-mask_in="x:0px;y:[100%];" data-start="500"
                                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-splitin="none"
-                                      data-splitout="none" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-basealign="slide" data-responsive_offset="off" style="z-index: 6;
-                                      white-space: nowrap;">Certified Management Accountant<br>(CMA).
+                                      data-splitout="none" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-basealign="slide" data-responsive_offset="off" style= "z-index: 6;
+                                      white-space: nowrap;"><?=$Slides['SLD_TTL2']?>
                                   </div>
 
                                   <!-- Layer 3 -->
@@ -76,8 +76,8 @@
                                   data-y="['bottom','bottom','bottom','bottom']" data-voffset="['40','1','74','58']" data-fontsize="['18','18','18','15']" data-lineheight="['24','24','24','20']"
                                       data-width="['410','410','410','280']" data-height="['60','100','100','100']" data-transform_idle="o:1;" data-start="650" data-splitin="none" data-splitout="none"
                                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-basealign="slide" data-responsive_offset="off"
-                                      data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-responsive="off" style="z-index: 7; min-width: 410px; max-width: 410px; max-width: 60px;
-                                      white-space: normal;">Financail brains CMA course is distinguished by its limited seats which leads to above average passing rates.
+                                      data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-responsive="off" style= "z-index: 7; min-width: 410px; max-width: 410px; max-width: 60px;
+                                      white-space: normal;"><?=$Slides['SLD_DSC2']?>
                                   </div>
 
 
@@ -86,16 +86,16 @@
 
                               <!-- Slide Start -->
                               <li data-index="rs-311" data-transition="slideoverhorizontal" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000"
-                                  data-thumb="<?=base_url() ?>/images/slider_img3.jpg" data-rotate="0" data-saveperformance="off" data-title="Workshops" data-description="">
+                                  data-thumb="<?=base_url() .'images/' . $Slides['SLD_IMG3']?>" data-rotate="0" data-saveperformance="off" data-title="Workshops" data-description="">
                                   <!-- Image Start -->
-                                  <img src="<?=base_url() ?>/images/slider_img3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                  <img src="<?=base_url() .'images/' . $Slides['SLD_IMG3']?>" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                   <!-- Image End -->
 
                                   <!-- Layer 1 -->
                                   <div class="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-0" id="slide-311-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"  data-start="0"
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['920','920','920','1070']" data-whitespace="nowrap"
                                       data-responsive="off" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="opacity:0;s:1500;e:Power2.easeInOut;"
-                                      data-transform_out="opacity:0;s:1000;s:1000;" data-basealign="slide" data-responsive_offset="off" style="z-index: 5; background-color: rgba(0, 0, 0, 0.50);
+                                      data-transform_out="opacity:0;s:1000;s:1000;" data-basealign="slide" data-responsive_offset="off" style= "z-index: 5; background-color: rgba(0, 0, 0, 0.50);
                                       border-color: rgba(0, 0, 0, 0); background: rgba(0,0,0,0.45);">
                                   </div>
 
@@ -104,8 +104,8 @@
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['110','110','180','160']" data-fontsize="['70','70','49','42']" data-lineheight="['100','90','60','60']"
                                       data-width="['none','none','none','400']" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-transform_idle="o:1;" data-mask_in="x:0px;y:[100%];" data-start="500"
                                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-splitin="none"
-                                      data-splitout="none" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-basealign="slide" data-responsive_offset="off" style="z-index: 6;
-                                      white-space: nowrap;"     >Financial Modelling <br>& Valuation Workshops.
+                                      data-splitout="none" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-basealign="slide" data-responsive_offset="off" style= "z-index: 6;
+                                      white-space: nowrap;"     ><?=$Slides['SLD_TTL3']?>
                                   </div>
 
                                   <!-- Layer 3 -->
@@ -113,24 +113,24 @@
                                   data-y="['bottom','bottom','bottom','bottom']" data-voffset="['40','1','74','58']" data-fontsize="['18','18','18','15']" data-lineheight="['24','24','24','20']"
                                       data-width="['410','410','410','280']" data-height="['60','100','100','100']" data-transform_idle="o:1;" data-start="650" data-splitin="none" data-splitout="none"
                                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-basealign="slide" data-responsive_offset="off"
-                                      data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-responsive="off" style="z-index: 7; min-width: 410px; max-width: 410px; max-width: 60px;
-                                      white-space: normal;">Equip yourself with practcal skills needed for your investment career with one of Financial Brains' Workshops.
+                                      data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-responsive="off" style= "z-index: 7; min-width: 410px; max-width: 410px; max-width: 60px;
+                                      white-space: normal;"><?=$Slides['SLD_DSC3']?>
                                   </div>
                               </li>
                               <!-- Slide End -->
 
                               <!-- Slide Start -->
                               <li data-index="rs-312" data-transition="slideoverhorizontal" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000"
-                                  data-thumb="<?=base_url() ?>/images/slider_img5.jpg" data-rotate="0" data-saveperformance="off" data-title="Pass" data-description="">
+                                  data-thumb="<?=base_url() .'images/' . $Slides['SLD_IMG4']?>" data-rotate="0" data-saveperformance="off" data-title="Pass" data-description="">
                                   <!-- Image Start -->
-                                  <img src="<?=base_url() ?>/images/slider_img5.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                  <img src="<?=base_url() .'images/' . $Slides['SLD_IMG4']?>" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                   <!-- Image End -->
 
                                   <!-- Layer 1 -->
                                   <div class="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-0" id="slide-312-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"  data-start="0"
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['920','920','920','1070']" data-whitespace="nowrap"
                                       data-responsive="off" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="opacity:0;s:1500;e:Power2.easeInOut;"
-                                      data-transform_out="opacity:0;s:1000;s:1000;" data-basealign="slide" data-responsive_offset="off" style="z-index: 5; background-color: rgba(0, 0, 0, 0.50);
+                                      data-transform_out="opacity:0;s:1000;s:1000;" data-basealign="slide" data-responsive_offset="off" style= "z-index: 5; background-color: rgba(0, 0, 0, 0.50);
                                       border-color: rgba(0, 0, 0, 0); background: rgba(0,0,0,0.45);">
                                   </div>
 
@@ -139,8 +139,8 @@
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['110','110','180','160']" data-fontsize="['70','70','49','42']" data-lineheight="['100','90','60','60']"
                                       data-width="['none','none','none','400']" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-transform_idle="o:1;" data-mask_in="x:0px;y:[100%];" data-start="500"
                                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-splitin="none"
-                                      data-splitout="none" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-basealign="slide" data-responsive_offset="off" style="z-index: 6;
-                                      white-space: nowrap;">Additional Course Attendance
+                                      data-splitout="none" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-basealign="slide" data-responsive_offset="off" style= "z-index: 6;
+                                      white-space: nowrap;"><?=$Slides['SLD_TTL4']?>
                                   </div>
 
                                   <!-- Layer 3 -->
@@ -148,8 +148,8 @@
                                   data-y="['bottom','bottom','bottom','bottom']" data-voffset="['40','1','74','58']" data-fontsize="['18','18','18','15']" data-lineheight="['24','24','24','20']"
                                       data-width="['410','410','410','280']" data-height="['60','100','100','100']" data-transform_idle="o:1;" data-start="650" data-splitin="none" data-splitout="none"
                                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-basealign="slide" data-responsive_offset="off"
-                                      data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-responsive="off" style="z-index: 7; min-width: 410px; max-width: 410px; max-width: 60px;
-                                      white-space: normal;"><strong>Repeat the course free of charge</strong> in case you did not pass the international certificate on your first attempt.
+                                      data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-responsive="off" style= "z-index: 7; min-width: 410px; max-width: 410px; max-width: 60px;
+                                      white-space: normal;"><?=$Slides['SLD_DSC4']?>
                                   </div>
 
 
@@ -160,16 +160,16 @@
 
                               <!-- Slide Start -->
                               <li data-index="rs-313" data-transition="slideoverhorizontal" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000"
-                                  data-thumb="<?=base_url() ?>/images/slider_img4.jpg" data-rotate="0" data-saveperformance="off" data-title="Market" data-description="">
+                                  data-thumb="<?=base_url() .'images/' . $Slides['SLD_IMG5']?>" data-rotate="0" data-saveperformance="off" data-title="Market" data-description="">
                                   <!-- Image Start -->
-                                  <img src="<?=base_url() ?>/images/slider_img4.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                  <img src="<?=base_url() .'images/' . $Slides['SLD_IMG5']?>" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                   <!-- Image End -->
 
                                   <!-- Layer 1 -->
                                   <div class="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-0" id="slide-313-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"  data-start="0"
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['920','920','920','1070']" data-whitespace="nowrap"
                                       data-responsive="off" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="opacity:0;s:1500;e:Power2.easeInOut;"
-                                      data-transform_out="opacity:0;s:1000;s:1000;" data-basealign="slide" data-responsive_offset="off" style="z-index: 5; background-color: rgba(0, 0, 0, 0.50);
+                                      data-transform_out="opacity:0;s:1000;s:1000;" data-basealign="slide" data-responsive_offset="off" style= "z-index: 5; background-color: rgba(0, 0, 0, 0.50);
                                       border-color: rgba(0, 0, 0, 0); background: rgba(0,0,0,0.45);">
                                   </div>
 
@@ -178,8 +178,8 @@
                                       data-y="['bottom','bottom','bottom','bottom']" data-voffset="['110','110','180','160']" data-fontsize="['70','70','49','42']" data-lineheight="['100','90','60','60']"
                                       data-width="['none','none','none','400']" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-transform_idle="o:1;" data-mask_in="x:0px;y:[100%];" data-start="500"
                                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-splitin="none"
-                                      data-splitout="none" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-basealign="slide" data-responsive_offset="off" style="z-index: 6;
-                                      white-space: nowrap;">Mastering the Financial Profession
+                                      data-splitout="none" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-basealign="slide" data-responsive_offset="off" style= "z-index: 6;
+                                      white-space: nowrap;"><?=$Slides['SLD_TTL5']?>
                                   </div>
 
                                   <!-- Layer 3 -->
@@ -187,8 +187,8 @@
                                   data-y="['bottom','bottom','bottom','bottom']" data-voffset="['40','1','74','58']" data-fontsize="['18','18','18','15']" data-lineheight="['24','24','24','20']"
                                       data-width="['410','410','410','280']" data-height="['60','100','100','100']" data-transform_idle="o:1;" data-start="650" data-splitin="none" data-splitout="none"
                                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-basealign="slide" data-responsive_offset="off"
-                                      data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-responsive="off" style="z-index: 7; min-width: 410px; max-width: 410px; max-width: 60px;
-                                      white-space: normal;">Financial brains' Vision is to introduce to the market high financial calibres.
+                                      data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-responsive="off" style= "z-index: 7; min-width: 410px; max-width: 410px; max-width: 60px;
+                                      white-space: normal;"><?=$Slides['SLD_DSC1']?>
                                   </div>
 
 

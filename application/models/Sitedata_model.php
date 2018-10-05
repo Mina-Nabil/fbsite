@@ -9,6 +9,27 @@ class Sitedata_model extends CI_Model{
     $this->load->database();
   }
 
+  public function getBlogs(){
+
+  $strSQL = "SELECT BLOG_ID, BLOG_TITLE, BLOG_DESC, BLOG_IMGE
+              FROM blog
+              ORDER BY BLOG_ID DESC
+              LIMIT 20
+              ";
+  $query = $this->db->query($strSQL);
+  return $query->result_array();
+
+}
+
+public function getSlides(){
+  $strSQL = "SELECT SLD_TTL1, SLD_TTL2, SLD_TTL3, SLD_TTL4, SLD_TTL5,
+                    SLD_DSC1, SLD_DSC2, SLD_DSC3, SLD_DSC4, SLD_DSC5, SLD_IMG1, SLD_IMG2, SLD_IMG3, SLD_IMG4, SLD_IMG5
+              FROM slides";
+  $query = $this->db->query($strSQL);
+  return  $query->result_array()[0];
+}
+
+
   public function getSite_data(){
 
     $strSQL = "SELECT `STDT_ID`,

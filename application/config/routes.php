@@ -55,7 +55,9 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['home'] = 'Main/home';
 $route['join'] = 'Main/join';
+$route['send_join'] = 'Main/sendJoin';
 $route['contactus'] = 'Main/contactus';
+$route['gallery'] = 'Main/blog';
 $route['send_email'] = 'Main/send_email';
 $route['instructors/(:any)'] = 'Main/instructors/$1';
 $route['instructor_dtl/(:any)'] = 'Main/instructor_details/$1';

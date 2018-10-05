@@ -19,8 +19,8 @@
       <div class="col-md-6 col-sm-12 col-xs-12">
           <h3>Join our Team</h3>
           <p>Register now to join our team of instructors!</p>
-          <div class="contact_form">
-              <form method="post" action="<?=base_url()?>send_join">
+              <form method="post" action="<?=base_url()?>send_join" enctype="multipart/form-data">
+                <div class="contact_form">
                   <input class="form-control" placeholder="Full Name" name="name" type="text" required>
                   <input class="form-control" placeholder="Mobile Number" name="mob" type="text" required>
                   <input class="form-control" placeholder="Email" name="email" type="text" required>
@@ -29,12 +29,18 @@
                   <textarea class="form-control" rows="7" placeholder="Why do you want to join financial brains?" name="why"></textarea>
                   <label>Biography</label>
                   <input class="form-control"  name="CV" type="file" required>
-                  <input class="form-control"  name="photo" type="file" required>
+                  <input class="form-control"  name="photo" type="file" >
+                </div>
+                  <?=$captcha['image']?>
+                  <input class="form-control"  name="capcha" type="text" required>
+                  <br>
+                  <?php if(isset($error)){ ?>
+                    <label class="text-danger">CAPTCHA incorrect!</label>
+                  <?php } ?>
                   <button type="submit" class="btn btn_contact">Submit <i class="fa fa-check"></i></button>
               </form>
-          </div>
       </div>
-      <!-- Contact Form End -->
+
     </div>
   </div>
 </div>
