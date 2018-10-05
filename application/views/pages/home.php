@@ -278,7 +278,7 @@
                            </div>
                        </div>
                    </div>
-                   <?}?>
+                   <?php }?>
                  </div>
                </div>
            </div>
@@ -353,7 +353,7 @@ The Center offers many different courses which Help the student in several diffe
                <!-- Testimonial Start -->
         <div id="testimonial" class="testimonial">
             <div class="testimonial_wrapper">
-              <?foreach ($ArrInstructors as $Instructor){?>
+              <?php foreach ($ArrInstructors as $Instructor){?>
                 <div class="slide">
                     <div class="container">
                         <div class="testimonial_txt_wrap">
@@ -365,17 +365,17 @@ The Center offers many different courses which Help the student in several diffe
                                                   default="<?=$Instructor['INST_NAME']?>"/></div>
                     </div>
                 </div>
-                <?}?>
+                <?php }?>
 
             </div>
 
             <div class="testimonials-nav__wrap">
               <div class="container">
                 <div class="testimonials-nav">
-              <?$i=1;?>
-              <?foreach ($ArrInstructors as $Instructor){?>
+              <?php $i=1;?>
+              <?php foreach ($ArrInstructors as $Instructor){?>
                 <div class="slide_s"><img  src="<?=base_url() . "../financialbrainsCP/uploads/instructors/" . $Instructor['INST_IMG']?>" alt="$i"/></div>
-                <? $i++;
+                <?php $i++;
                 }?>
                   </div>
                 </div>

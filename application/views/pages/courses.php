@@ -12,7 +12,7 @@
                     <div class="wrapper_course">
 
 
-                      <?foreach ($ArrCourses as $course){?>
+                      <?php foreach ($ArrCourses as $course){?>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="course_block">
                                 <div class="img_wrap left">
@@ -37,7 +37,7 @@
                                 </div>
                             </div>
                         </div>
-                        <?}?>
+                        <?php }?>
                     </div>
                     <!-- Courses Wrapper End -->
 
@@ -47,12 +47,12 @@
                         <div class="pages">
                             <ul class="pagination">
 
-                                <?for($i = 1 ; $i<=$pagesCount; $i++){?>
+                                <?php for($i = 1 ; $i<=$pagesCount; $i++){?>
                                 <li <?if($pageNum == $i) echo "class='active'"?>><a href="<?=base_url() . 'courses/' . $i?>" ><?=$i?></a></li>
-                                <?}?>
-                                <?if($pageNum < $pagesCount){?>
+                                <?php }?>
+                                <?php if($pageNum < $pagesCount){?>
                                 <li><a  href="<?=base_url() . 'courses/' . ($pageNum+1)?>">Next</a></li>
-                                <?}?>
+                                <?php }?>
                             </ul>
                         </div>
                     </div>

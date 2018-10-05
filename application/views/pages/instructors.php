@@ -9,7 +9,7 @@
 
                  <!-- Courses Wrapper Start -->
                  <div class="wrapper_faculty">
-                   <?foreach ($ArrInstructors as $Instructor){?>
+                   <?php foreach ($ArrInstructors as $Instructor){?>
                      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                          <div class="faculty_block">
                              <div class="img_wrap">
@@ -25,7 +25,7 @@
                              </div>
                          </div>
                      </div>
-                     <?}?>
+                     <?php }?>
                  </div>
                  <!-- Courses Wrapper End -->
 

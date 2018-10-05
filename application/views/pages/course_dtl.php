@@ -77,7 +77,7 @@
                                            <div class="panel panel-default">
                                                <div class="panel-heading" id="head_two">
                                                    <h4 class="panel-title">
-                                                       <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#ques_two">
+                                                       <a class="collapsed" data-toggle="collapse" data-parent="#head_two" href="#ques_two">
                                                          <i class="fa fa-object-group"></i><span>/</span>Candidates <i class="fa fa-plus"></i>
                                                        </a>
                                                    </h4>
@@ -100,7 +100,7 @@
                                            <div class="panel panel-default">
                                                <div class="panel-heading" id="head_three">
                                                    <h4 class="panel-title">
-                                                       <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#ques_three">
+                                                       <a class="collapsed" data-toggle="collapse" data-parent="#head_three" href="#ques_three">
                                                            <i class="fa fa-cubes"></i><span>/</span>Exams <i class="fa fa-plus"></i>
                                                        </a>
                                                    </h4>
@@ -126,7 +126,7 @@
                                            <div class="panel panel-default">
                                                <div class="panel-heading" id="head_four">
                                                    <h4 class="panel-title">
-                                                       <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#ques_four">
+                                                       <a class="collapsed" data-toggle="collapse" data-parent="#head_four" href="#ques_four">
                                                          <i class="fa fa-flask"></i><span>/</span>Instructors <i class="fa fa-plus"></i>
                                                        </a>
                                                    </h4>
@@ -166,7 +166,7 @@
                    <div class="course_tutor">
                      <h4>Instructors</h4>
                        <ul>
-                         <?foreach($Instructors as $instructor){?>
+                         <?php foreach($Instructors as $instructor){?>
                          <li>
                              <div class="tutor_img">
                                  <img alt="<?=$instructor['INST_NAME']?>" src="<?=base_url() . "../financialbrainsCP/uploads/instructors/" . $instructor['INST_IMG']?>">
@@ -177,7 +177,7 @@
 
                                </div>
                            </li>
-                           <?}?>
+                           <?php }?>
                        </ul>
                    </div>
                    <!-- Course Events End -->
