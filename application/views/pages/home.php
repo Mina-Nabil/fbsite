@@ -248,45 +248,9 @@
                           <!-- Overview End -->
 
                           <!-- Courses Start -->
-       <div id="courses" class="courses">
-           <div class="container">
-               <div class="head_part">
-                   <h2>Popular Courses</h2>
-                   <p>Boost your career with our growing list of valuable courses.</p>
-               </div>
 
-               <div class="course_wrapper">
-                 <?php foreach($ArrCourses as $course) {?>
-                   <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                       <div class="course_block">
-                         <a href="<?=base_url() .'course_dtl/' . $course['CRS_ID']  ?>" >
-                           <div class="img_wrap center">
-                               <img height="160px" alt="Business" src="<?=base_url() . "../financialbrainsCP/uploads/courses/" . $course['CRS_IMG']?>">
-                               <div class="course_img_hoverlay_btn">
-                               </div>
-                           </div>
-                         </a>
-                           <div class="business">
-                               <div class="icon"><i class="fa fa-line-chart"></i></div>
-                               <div class="course_info">
-                                   <h4><?=$course['CRS_NAME']?></h4>
-                                   <p><?=$course['CRS_OVERVIEW']?></p>
-                               </div>
-                           </div>
-                           <div class="business course_count_wrap">
-                               <div class="course_count">
-                                   Certificate:<span><?=$course['CRS_CERTIFICATE']?></span>
-                               </div>
 
-                           </div>
-                       </div>
-                   </div>
-                   <?php }?>
-                 </div>
-               </div>
-           </div>
-
-       <!-- Courses End --> "
+       <!-- Courses End --> 
 
        <!-- Count Section Start -->
                <div id="count" class="count" data-stellar-background-ratio="0.3" style="background: url(images/slider_img1.jpg); background-attachment: fixed; background-position: 50% 50%;">
