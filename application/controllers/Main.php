@@ -84,6 +84,7 @@ class Main extends CI_Controller {
 		$data['Exams']				= $this->Exams_model->getExam_byCourses($ID);
 		$data['Topics']			= $this->Topics_model->getTopic_byCourse($ID);
 		$data['Instructors']	= $this->Teachings_model->getTeaching_byCourses($ID);
+		$data['CourseDetail'] = TRUE;
 
 		$footer['ContactUs'] = $this->Contactus_model->getContactus()[0];
 		$footer['Images'] = $this->Sitedata_model->getSite_data_SMLIMG()[0];

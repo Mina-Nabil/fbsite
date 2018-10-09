@@ -77,23 +77,23 @@
                                 <li>
                                     <a href="<?=base_url() ?>courses/1">Courses</a>
                                     <ul class="dl-submenu">
-
-                                        <li><a href="<?=base_url() ?>courses/1">Course List</a></li>
-                                        <li><a href="<?=base_url() ?>/#">Course Single</a>
+                                          <li><a>CFA</a>
                                             <ul class="dl-submenu">
-
                                               <li><a href="<?=base_url() ?>course_dtl/1">CFA Level 1</a></li>
                                               <li><a href="<?=base_url() ?>course_dtl/13">CFA Level 2</a></li>
                                               <li><a href="<?=base_url() ?>course_dtl/33">CFA Level 3</a></li>
+                                            </ul>
+                                          </li>
+                                          <li><a>CMA</a>
+                                            <ul class='dl-submenu'>
                                               <li><a href="<?=base_url() ?>course_dtl/4">CMA Part 1</a></li>
                                               <li><a href="<?=base_url() ?>course_dtl/10">CMA Part 2</a></li>
-                                              <li><a href="<?=base_url() ?>course_dtl/34">IFRS Deploma</a></li>
-                                              <li><a href="<?=base_url() ?>course_dtl/5">Financial Modelling</a></li>
-                                              <li><a href="<?=base_url() ?>course_dtl/41">Financial Statement Analysis</a></li>
-
                                             </ul>
-                                        </li>
-                                    </ul>
+                                            </li>
+                                          <li><a href="<?=base_url() ?>course_dtl/34">IFRS Deploma</a></li>
+                                          <li><a href="<?=base_url() ?>course_dtl/5">Financial Modelling</a></li>
+                                          <li><a href="<?=base_url() ?>course_dtl/41">Financial Statement Analysis</a></li>
+                                      </ul>
                                 </li>
 
                                 <li><a class="trigger" href="<?=base_url() ?>instructors/1">Instructors</a></li>

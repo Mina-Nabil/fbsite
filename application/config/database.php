@@ -78,6 +78,7 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '9An4jb7dDbjn',
+	
 	'port' => '3306',
 	'database' => 'financial_brains',
 	'dbdriver' => 'mysqli',

@@ -55,16 +55,17 @@
 <!-- JavaScript -->
 <script type="text/javascript" src=<?=base_url() . "js/jquery-3.1.0.min.js" ?>></script>
 <script type="text/javascript" src=<?=base_url() . "js/modernizr.custom.js" ?>></script>
+<script type="text/javascript" src=<?=base_url() . "js/jquery.dlmenu.js" ?>></script>
 <script type="text/javascript" src=<?=base_url() . "js/bootstrap.min.js" ?>></script>
 <script type="text/javascript" src=<?=base_url() . "js/bootstrap-select.js" ?>></script>
 <script type="text/javascript" src=<?=base_url() . "js/jquery-plugin-collection.js" ?>></script>
-<script type="text/javascript" src=<?=base_url() . "js/jquery.dlmenu.js" ?>></script>
+<script type="text/javascript" src=<?=base_url() . "js/owl-carousel.js" ?>></script>
 <script type="text/javascript" src=<?=base_url() . "js/js-functions.js" ?>></script>
+<?php if(!isset($CourseDetail)){?>
 <script type="text/javascript" src=<?=base_url() . "js/flicker.js"?>></script>
-
+<?php } ?>
 <script type="text/javascript" src=<?=base_url() . "js/rev_slider.js" ?>></script>
 
-<script type="text/javascript" src=<?=base_url() . "js/owl-carousel.js" ?>></script>
 
 <script type="text/javascript" src=<?=base_url() . "js/rev/jquery.themepunch.tools.min.js" ?>></script>
 <script type="text/javascript" src=<?=base_url() . "js/rev/jquery.themepunch.revolution.min.js" ?>></script>

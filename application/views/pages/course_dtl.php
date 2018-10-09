@@ -33,9 +33,9 @@
                                        <p>Here's a list of what you should expect from our course:.</p>
                                        </div>
                                        <ul class="arr_menu">
-                                         <?php foreach ($Benefits as $benefit){?>
+                                         <?foreach ($Benefits as $benefit){?>
                                            <li><?=$benefit['BNFT_DESC']?></li>
-                                           <?php }?>
+                                           <?}?>
 
                                        </ul>
 
@@ -61,12 +61,12 @@
                                                        <ul>
                                                          <li>
                                                              <ul>
-                                                               <?php foreach($Topics as $topic){?>
+                                                               <?foreach($Topics as $topic){?>
                                                                    <li>
                                                                      <strong><?=$topic['TOPC_NAME']?></strong>
                                                                     <br>
                                                                     <?=$topic['TOPC_DESC']?></li>
-                                                               <?php }?>
+                                                               <?}?>
                                                            </ul>
                                                            </li>
                                                        </ul>
@@ -87,9 +87,9 @@
                                                        <ul>
                                                          <li>
                                                              <ul>
-                                                               <?php foreach($Candidates as $candidate){?>
+                                                               <?foreach($Candidates as $candidate){?>
                                                                    <li><?=$candidate['CNDT_NAME']?></li>
-                                                               <?php }?>
+                                                               <?}?>
                                                            </ul>
                                                            </li>
                                                        </ul>
@@ -110,12 +110,12 @@
                                                        <ul>
                                                          <li>
                                                              <ul>
-                                                               <?php foreach($Exams as $exam){?>
+                                                               <?foreach($Exams as $exam){?>
                                                                    <li><?=$exam['EXAM_NAME'] . ":"?>
                                                                      <br><br>
                                                                      <?=$exam['EXAM_DESC']?>
                                                                    </li>
-                                                               <?php }?>
+                                                               <?}?>
                                                            </ul>
                                                            </li>
                                                        </ul>
@@ -136,9 +136,9 @@
                                                        <ul>
                                                          <li>
                                                              <ul>
-                                                               <?php foreach($Instructors as $instructor){?>
+                                                               <?foreach($Instructors as $instructor){?>
                                                                    <li><?=$instructor['INST_NAME']?></li>
-                                                               <?php }?>
+                                                               <?}?>
                                                            </ul>
                                                            </li>
                                                        </ul>
