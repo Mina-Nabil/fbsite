@@ -16,8 +16,11 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="course_block">
                                 <div class="img_wrap left">
+                                  <a href="<?=base_url() .'course_dtl/' . $course['CRS_ID']  ?>" title="View More" >
                                     <img width="340px" height="180px" alt="<?=$course['CRS_NAME']?>" src="<?=base_url() . "../financialbrainsCP/uploads/courses/" . $course['CRS_IMG']?>">
-                                    <div class="course_img_hoverlay_btn"><a href="<?=base_url() .'course_dtl/' . $course['CRS_ID']  ?>" title="View More" class="fa fa-eye"></a></div>
+                                    <div class="course_img_hoverlay_btn">
+                                    </div>
+                                  </a>
 
                                 </div>
 
