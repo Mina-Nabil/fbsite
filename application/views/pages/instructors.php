@@ -34,12 +34,12 @@
                  <div class="pager">
                      <div class="pages">
                          <ul class="pagination">
-                             <?for($i = 1 ; $i<=$pagesCount; $i++){?>
+                             <?php for($i = 1 ; $i<=$pagesCount; $i++){?>
                              <li <?if($pageNum == $i) echo "class='active'"?>><a href="<?=base_url() . 'instructors/' . $i?>" ><?=$i?></a></li>
-                             <?}?>
-                             <?if($pageNum < $pagesCount){?>
+                             <?php }?>
+                             <?php if($pageNum < $pagesCount){?>
                              <li><a  href="<?=base_url() . 'instructors/' . ($pageNum+1)?>">Next</a></li>
-                             <?}?>
+                             <?php }?>
                          </ul>
                      </div>
                  </div>
