@@ -309,47 +309,6 @@ The Center offers many different courses which Help the student in several diffe
                </div>
                <!-- Count Section End -->
 
-                  <div id="team" class="team">
-                   <div class="container">
-                    <div class="head_part">
-                           <h2>Meet Our Instructors</h2>
-                       </div>
-                     </div>
-                   </div>
-
-               <!-- Testimonial Start -->
-        <div id="testimonial" class="testimonial">
-            <div class="testimonial_wrapper">
-              <?php foreach ($ArrInstructors as $Instructor){?>
-                <div class="slide">
-                    <div class="container">
-                        <div class="testimonial_txt_wrap">
-                            <div class="client_name"><?=$Instructor['INST_NAME']?></div>
-                            <div class="client_role"><?=$Instructor['INST_DESC']?></div>
-
-                        </div>
-                        <div class="client_photo "><img width=530px height=600px src="<?=base_url() . "../financialbrainsCP/uploads/instructors/" . $Instructor['INST_IMG']?>"
-                                                  default="<?=$Instructor['INST_NAME']?>"/></div>
-                    </div>
-                </div>
-                <?php }?>
-
-            </div>
-
-            <div class="testimonials-nav__wrap">
-              <div class="container">
-                <div class="testimonials-nav">
-              <?php $i=1;?>
-              <?php foreach ($ArrInstructors as $Instructor){?>
-                <div class="slide_s"><img  src="<?=base_url() . "../financialbrainsCP/uploads/instructors/" . $Instructor['INST_IMG']?>" alt="$i"/></div>
-                <?php $i++;
-                }?>
-                  </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- Testimonial End -->
 
 
                           <div id="team" class="team">
