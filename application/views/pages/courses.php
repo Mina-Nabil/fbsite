@@ -51,7 +51,7 @@
                             <ul class="pagination">
 
                                 <?php for($i = 1 ; $i<=$pagesCount; $i++){?>
-                                <li <?if($pageNum == $i) echo "class='active'"?>><a href="<?=base_url() . 'courses/' . $i?>" ><?=$i?></a></li>
+                                <li <?php if($pageNum == $i) echo "class='active'"?> ><a href="<?=base_url() . 'courses/' . $i?>" ><?=$i?></a></li>
                                 <?php }?>
                                 <?php if($pageNum < $pagesCount){?>
                                 <li><a  href="<?=base_url() . 'courses/' . ($pageNum+1)?>">Next</a></li>

@@ -250,7 +250,7 @@
                           <!-- Courses Start -->
 
 
-       <!-- Courses End --> 
+       <!-- Courses End -->
 
        <!-- Count Section Start -->
                <div id="count" class="count" data-stellar-background-ratio="0.3" style="background: url(images/slider_img1.jpg); background-attachment: fixed; background-position: 50% 50%;">
@@ -350,5 +350,18 @@ The Center offers many different courses which Help the student in several diffe
             </div>
         </div>
         <!-- Testimonial End -->
+
+
+                          <div id="team" class="team">
+                           <div class="container">
+                            <div class="head_part">
+                                   <h2>Our Clients</h2>
+                               </div>
+                             </div>
+                           </div>
+
+                           <div class="overview_img col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                             <figure><img alt="Professional Instructor" src="images/course.jpg"></figure>
+                           </div>
     </div>
  </div>
