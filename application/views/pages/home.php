@@ -358,7 +358,7 @@ The Center offers many different courses which Help the student in several diffe
                                    <h2>Our Clients</h2>
                                </div>
                                <div class="overview_img col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                 <figure><img alt="Professional Instructor" src="<?=base_url() . 'images/FB-Brands.jpf'?>"></figure>
+                                 <figure><img alt="Professional Instructor" src="<?=base_url() . 'images/FB-Brands.jpg'?>"></figure>
                                </div>
                              </div>
                            </div>
